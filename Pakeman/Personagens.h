@@ -10,7 +10,7 @@ string arrayMonstros[10];
 struct Ataque {
 	bool rapido;
 	string nome;
-	int dano;
+	int dano = 30;
 };
 
 struct Monstro {
