@@ -2,6 +2,7 @@
 #define LOGICA_H
 #include <iostream>
 #include <string>
+//
 
 void monstrosHP(int opcao, Npc &atacante, Npc &atacado, int indiceMonstroAtacado, int indiceMonstroAtacante) {
 	switch (opcao)
